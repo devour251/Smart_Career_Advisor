@@ -1,0 +1,6 @@
+{
+  "name": "Smart Career Advisor",
+  "description": "Personalized stream, course, and career guidance for 10th, 12th, undergraduate, and graduate students with subject guides, salary insights, roadmaps, free study resources, YouTube channels, and an interactive career mentor.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

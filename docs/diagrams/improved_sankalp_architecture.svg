@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 580" width="1040" height="580">
+    <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#475569"/>
+    </marker>
+    <marker id="arrTeal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0D9488"/>
+    </marker>
+  </defs>
+    <rect width="1040" height="580" fill="#FFFFFF"/>
+    <text x="40" y="34" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0F172A">Proposed Improved Sankalp Multi-Stage Hybrid Architecture</text>
+    <text x="40" y="54" font-family="Arial, sans-serif" font-size="13" fill="#0F766E">NEP-2020 Multi-Stage Pathways + Multi-Facet SBERT + Soft-Constraint Bridges + Contextual RL + KG Imputation</text>
+
+    <rect x="30" y="70" width="980" height="105" rx="10" fill="#F0FDFA" stroke="#5EEAD4" stroke-width="1.6"/>
+    <text x="50" y="92" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#0F766E">1. PRESENTATION &amp; MULTILINGUAL ACADEMIC LEXICON LAYER (REACT + WEB SPEECH API)</text>
+    
+    <rect x="50" y="102" width="220" height="58" rx="8" fill="#FFFFFF" stroke="#14B8A6" stroke-width="1.8"/>
+    <text x="160" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">5-Step Guided Website</text>
+    <text x="160" y="144" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">10th / 12th / UG / Graduate</text>
+  
+    
+    <rect x="290" y="102" width="230" height="58" rx="8" fill="#FFFFFF" stroke="#14B8A6" stroke-width="1.8"/>
+    <text x="405" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Native Lexicon NLP</text>
+    <text x="405" y="144" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">EN / HI / KN Stream &amp; Valence</text>
+  
+    
+    <rect x="540" y="102" width="220" height="58" rx="8" fill="#FFFFFF" stroke="#14B8A6" stroke-width="1.8"/>
+    <text x="650" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Voice STT &amp; TTS</text>
+    <text x="650" y="144" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Zero-Latency Browser Speech</text>
+  
+    
+    <rect x="780" y="102" width="210" height="58" rx="8" fill="#FFFFFF" stroke="#14B8A6" stroke-width="1.8"/>
+    <text x="885" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Roadmap &amp; Comparison</text>
+    <text x="885" y="144" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Interactive SVG Pathway &amp; Diff</text>
+  
+
+    <rect x="30" y="195" width="980" height="215" rx="10" fill="#F8FAFC" stroke="#93C5FD" stroke-width="1.6"/>
+    <text x="50" y="218" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#1D4ED8">2. IMPROVED MULTI-AGENT HYBRID AI ENGINE (EXPRESS + TRANSFORMERS.JS ONNX)</text>
+    
+    <rect x="50" y="232" width="220" height="74" rx="8" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.8"/>
+    <text x="160" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">KG Profile Imputation</text>
+    <text x="160" y="274" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Infers Missing Skills from</text><text x="160" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Subjects &amp; RIASEC Priors</text>
+  
+    
+    <rect x="290" y="232" width="225" height="74" rx="8" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.8"/>
+    <text x="402.5" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Multi-Facet SBERT</text>
+    <text x="402.5" y="274" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">384-d Facet Attention:</text><text x="402.5" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Skills + Interests + Academic</text>
+  
+    
+    <rect x="535" y="232" width="225" height="74" rx="8" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.8"/>
+    <text x="647.5" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Soft-Constraint &amp; Bridge</text>
+    <text x="647.5" y="274" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Logistic Cutoff Curve +</text><text x="647.5" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">NEP-2020 Lateral Remediation</text>
+  
+    
+    <rect x="780" y="232" width="210" height="74" rx="8" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.8"/>
+    <text x="885" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">VADER + SCCT Empathy</text>
+    <text x="885" y="274" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Multilingual Valence +</text><text x="885" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Anxiety-Safe Attainability</text>
+  
+    
+    <rect x="140" y="322" width="350" height="72" rx="8" fill="#ECFDF5" stroke="#10B981" stroke-width="1.8"/>
+    <text x="315" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#065F46">Contextual Sentiment Q-Learning Policy</text>
+    <text x="315" y="364" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">State=(Stage, RIASEC, Completeness, Emotion)</text><text x="315" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Selects Optimal Dynamic Fusion Weight Vector w*</text>
+  
+    
+    <rect x="530" y="322" width="370" height="72" rx="8" fill="#ECFDF5" stroke="#10B981" stroke-width="1.8"/>
+    <text x="715" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#065F46">Fairness-Calibrated Hybrid Scorer + CI</text>
+    <text x="715" y="364" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Eliminates Urban Buzzword Bias +</text><text x="715" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Outputs [Low, High] Confidence Intervals &amp; Plan-B</text>
+  
+
+    <rect x="30" y="430" width="980" height="125" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.6"/>
+    <text x="50" y="452" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#334155">3. PERSISTENT STORAGE, KNOWLEDGE GRAPH &amp; BENCHMARK VERIFICATION LAYER</text>
+    
+    <rect x="50" y="466" width="220" height="72" rx="8" fill="#FFFFFF" stroke="#64748B" stroke-width="1.8"/>
+    <text x="160" y="489" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">85-Career + 21-Pathway DB</text>
+    <text x="160" y="508" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">NPTEL/SWAYAM Courses,</text><text x="160" y="524" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Salaries, Exams &amp; Bridges</text>
+  
+    
+    <rect x="290" y="466" width="225" height="72" rx="8" fill="#FFFFFF" stroke="#64748B" stroke-width="1.8"/>
+    <text x="402.5" y="489" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Heterogeneous KG</text>
+    <text x="402.5" y="508" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">IDF-Weighted Career-Skill-</text><text x="402.5" y="524" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Subject-Trait Centrality</text>
+  
+    
+    <rect x="535" y="466" width="225" height="72" rx="8" fill="#FFFFFF" stroke="#64748B" stroke-width="1.8"/>
+    <text x="647.5" y="489" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">SQLite Persistence</text>
+    <text x="647.5" y="508" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Sessions, Logs, Feedback,</text><text x="647.5" y="524" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Learned Q-Table Snapshots</text>
+  
+    
+    <rect x="780" y="466" width="210" height="72" rx="8" fill="#FFFFFF" stroke="#64748B" stroke-width="1.8"/>
+    <text x="885" y="489" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">240-Profile Benchmark</text>
+    <text x="885" y="508" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">80 Train / 160 Held-Out Test</text><text x="885" y="524" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Dual Rubric Cohen Kappa</text>
+  
+
+    <line x1="520" y1="175" x2="520" y2="195" stroke="#0D9488" stroke-width="2.2" marker-end="url(#arrTeal)"/>
+    <line x1="520" y1="410" x2="520" y2="430" stroke="#0D9488" stroke-width="2.2" marker-end="url(#arrTeal)"/>
+  </svg>

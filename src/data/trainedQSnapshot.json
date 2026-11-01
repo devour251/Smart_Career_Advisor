@@ -1,0 +1,352 @@
+{
+  "alpha": 0.1,
+  "gamma": 0.9,
+  "epsilon": 0.1,
+  "episodesTrained": 8000,
+  "originalCareerQ": {
+    "after_10th::diploma-civil-supervisor": 1.2496,
+    "after_10th::iti-cnc-machinist": 1.2496,
+    "after_10th::network-support-tech": 1.2496,
+    "after_10th::agri-tech-assistant": 1.2496,
+    "after_10th::ai-ml-engineer": 1.2496,
+    "after_10th::ngo-social-director": 1.2496,
+    "after_10th::corporate-lawyer": 1.2496,
+    "after_10th::ux-ui-designer": 1.2496,
+    "after_10th::polytechnic-mech-tech": 1.2496,
+    "after_10th::diploma-embedded-tech": 1.2496,
+    "after_10th::paramedical-lab-tech": 1.2496,
+    "after_10th::graphic-dtp-designer": 1.2496,
+    "after_10th::software-engineer": 1.2496,
+    "after_10th::general-physician": 1.2496,
+    "after_10th::actuarial-scientist": 1.2496,
+    "after_10th::public-health-epidemiologist": 0.7205,
+    "after_10th::motion-3d-artist": 1.2496,
+    "after_10th::diploma-ev-tech": 1.2496,
+    "after_10th::iti-solar-technician": 1.2496,
+    "after_10th::commercial-tally-associate": 1.2496,
+    "after_12th::diploma-civil-supervisor": 1.2496,
+    "after_12th::iti-solar-technician": 1.2496,
+    "after_12th::commercial-tally-associate": 1.2496,
+    "after_12th::hospitality-associate": 1.2496,
+    "after_12th::data-scientist": 1.2496,
+    "after_12th::ngo-social-director": 1.2144,
+    "after_12th::vlsi-engineer": 1.2496,
+    "after_12th::ev-powertrain-engineer": 1.2496,
+    "after_12th::structural-civil-engineer": 1.2439,
+    "after_12th::environmental-engineer": 1.2496,
+    "after_12th::biotech-researcher": 1.2496,
+    "after_12th::nursing-officer": 1.2496,
+    "after_12th::general-physician": 1.2474,
+    "after_12th::actuarial-scientist": 1.2496,
+    "after_12th::veterinary-scientist": 1.2496,
+    "after_12th::economic-policy-researcher": 1.2496,
+    "after_12th::urban-policy-planner": 1.2496,
+    "after_12th::industrial-product-designer": 1.2496,
+    "after_12th::brand-comm-designer": 1.2496,
+    "undergraduate::hospitality-associate": 1.2496,
+    "undergraduate::data-scientist": 1.2496,
+    "undergraduate::computer-vision-engineer": 1.2496,
+    "undergraduate::blockchain-fintech-dev": 1.2496,
+    "undergraduate::ngo-social-director": 1.2496,
+    "undergraduate::robotics-engineer": 1.2496,
+    "undergraduate::structural-civil-engineer": 1.2496,
+    "undergraduate::environmental-engineer": 1.2496,
+    "undergraduate::nursing-officer": 1.2496,
+    "undergraduate::bioinformatics-scientist": 1.2496,
+    "undergraduate::public-health-epidemiologist": 1.2496,
+    "undergraduate::chartered-accountant": 1.2496,
+    "undergraduate::management-accountant": 1.2496,
+    "undergraduate::quant-finance-researcher": 1.2496,
+    "undergraduate::ecommerce-scm-analyst": 1.2496,
+    "undergraduate::corporate-lawyer": 1.2496,
+    "graduate::ai-ml-engineer": 1.2496,
+    "graduate::cybersecurity-analyst": 1.2496,
+    "graduate::nlp-researcher": 1.2496,
+    "graduate::computer-vision-engineer": 1.1926,
+    "graduate::game-simulation-dev": 1.2496,
+    "graduate::chemical-process-engineer": 1.0915,
+    "graduate::structural-civil-engineer": 1.2496,
+    "graduate::geomatics-mining-engineer": 1.2496,
+    "graduate::biotech-researcher": 1.2496,
+    "graduate::public-health-epidemiologist": 1.2496,
+    "graduate::ecommerce-scm-analyst": 1.2496,
+    "graduate::tax-audit-consultant": 1.2496,
+    "graduate::wealth-advisor": 1.2496,
+    "graduate::civil-services-officer": 1.2496,
+    "graduate::content-strategist": 1.2496,
+    "graduate::foreign-language-specialist": 1.2496,
+    "graduate::tech-product-manager": 1.2496,
+    "graduate::quant-marketing-lead": 1.2496,
+    "after_10th::content-strategist": 1.2083,
+    "after_12th::nutrition-specialist": 1.2495,
+    "graduate::vlsi-engineer": 1.2125
+  },
+  "contextualPolicyQ": {
+    "after_10th|R|complete|pos": {
+      "balanced_hybrid": 0.9377,
+      "semantic_heavy": 0.8789,
+      "eligibility_heavy": 0.8906,
+      "kg_pathway_heavy": 0.9018,
+      "empathetic_support": 0.8668
+    },
+    "after_10th|R|sparse|pos": {
+      "balanced_hybrid": 0.7442,
+      "semantic_heavy": 0.8384,
+      "eligibility_heavy": 0.7194,
+      "kg_pathway_heavy": 0.7372,
+      "empathetic_support": 0.7705
+    },
+    "after_10th|I|complete|pos": {
+      "balanced_hybrid": 0.7318,
+      "semantic_heavy": 0.7688,
+      "eligibility_heavy": 0.8507,
+      "kg_pathway_heavy": 0.7613,
+      "empathetic_support": 0.7733
+    },
+    "after_10th|S|sparse|pos": {
+      "balanced_hybrid": 0.6597,
+      "semantic_heavy": 0.7731,
+      "eligibility_heavy": 0.666,
+      "kg_pathway_heavy": 0.7053,
+      "empathetic_support": 0.6967
+    },
+    "after_10th|E|complete|pos": {
+      "balanced_hybrid": 0.7063,
+      "semantic_heavy": 0.6658,
+      "eligibility_heavy": 0.7853,
+      "kg_pathway_heavy": 0.6761,
+      "empathetic_support": 0.6739
+    },
+    "after_10th|A|complete|pos": {
+      "balanced_hybrid": 0.9157,
+      "semantic_heavy": 0.8378,
+      "eligibility_heavy": 0.8057,
+      "kg_pathway_heavy": 0.7779,
+      "empathetic_support": 0.781
+    },
+    "after_10th|C|complete|pos": {
+      "balanced_hybrid": 0.7517,
+      "semantic_heavy": 0.7573,
+      "eligibility_heavy": 0.8343,
+      "kg_pathway_heavy": 0.7535,
+      "empathetic_support": 0.7146
+    },
+    "after_10th|I|sparse|pos": {
+      "balanced_hybrid": 0.7171,
+      "semantic_heavy": 0.7706,
+      "eligibility_heavy": 0.6681,
+      "kg_pathway_heavy": 0.7261,
+      "empathetic_support": 0.6573
+    },
+    "after_10th|S|complete|pos": {
+      "balanced_hybrid": 0.6661,
+      "semantic_heavy": 0.6753,
+      "eligibility_heavy": 0.7888,
+      "kg_pathway_heavy": 0.6873,
+      "empathetic_support": 0.6371
+    },
+    "after_10th|I|sparse|anx": {
+      "balanced_hybrid": 0.5486,
+      "semantic_heavy": 0.547,
+      "eligibility_heavy": 0.5402,
+      "kg_pathway_heavy": 0.5502,
+      "empathetic_support": 0.5504
+    },
+    "after_10th|R|sparse|anx": {
+      "balanced_hybrid": 0.694,
+      "semantic_heavy": 0.7037,
+      "eligibility_heavy": 0.6167,
+      "kg_pathway_heavy": 0.702,
+      "empathetic_support": 0.7441
+    },
+    "after_12th|R|complete|pos": {
+      "balanced_hybrid": 0.9301,
+      "semantic_heavy": 0.89,
+      "eligibility_heavy": 0.8834,
+      "kg_pathway_heavy": 0.8747,
+      "empathetic_support": 0.863
+    },
+    "after_12th|C|sparse|pos": {
+      "balanced_hybrid": 0.7263,
+      "semantic_heavy": 0.7733,
+      "eligibility_heavy": 0.6509,
+      "kg_pathway_heavy": 0.7153,
+      "empathetic_support": 0.6605
+    },
+    "after_12th|S|complete|pos": {
+      "balanced_hybrid": 0.7921,
+      "semantic_heavy": 0.7821,
+      "eligibility_heavy": 0.8916,
+      "kg_pathway_heavy": 0.8117,
+      "empathetic_support": 0.7925
+    },
+    "after_12th|I|complete|pos": {
+      "balanced_hybrid": 0.8624,
+      "semantic_heavy": 0.9355,
+      "eligibility_heavy": 0.888,
+      "kg_pathway_heavy": 0.8748,
+      "empathetic_support": 0.8821
+    },
+    "after_12th|I|sparse|pos": {
+      "balanced_hybrid": 0.6873,
+      "semantic_heavy": 0.7687,
+      "eligibility_heavy": 0.6776,
+      "kg_pathway_heavy": 0.6523,
+      "empathetic_support": 0.6546
+    },
+    "after_12th|S|sparse|pos": {
+      "balanced_hybrid": 0.6901,
+      "semantic_heavy": 0.7785,
+      "eligibility_heavy": 0.6436,
+      "kg_pathway_heavy": 0.7178,
+      "empathetic_support": 0.6864
+    },
+    "after_12th|I|complete|anx": {
+      "balanced_hybrid": 0.6852,
+      "semantic_heavy": 0.6863,
+      "eligibility_heavy": 0.6881,
+      "kg_pathway_heavy": 0.6861,
+      "empathetic_support": 0.7329
+    },
+    "after_12th|A|complete|pos": {
+      "balanced_hybrid": 0.6545,
+      "semantic_heavy": 0.6693,
+      "eligibility_heavy": 0.7862,
+      "kg_pathway_heavy": 0.6764,
+      "empathetic_support": 0.6432
+    },
+    "after_12th|A|sparse|anx": {
+      "balanced_hybrid": 0.6983,
+      "semantic_heavy": 0.7093,
+      "eligibility_heavy": 0.6259,
+      "kg_pathway_heavy": 0.698,
+      "empathetic_support": 0.7441
+    },
+    "undergraduate|S|complete|pos": {
+      "balanced_hybrid": 0.874,
+      "semantic_heavy": 0.8438,
+      "eligibility_heavy": 0.9268,
+      "kg_pathway_heavy": 0.8706,
+      "empathetic_support": 0.8443
+    },
+    "undergraduate|I|complete|pos": {
+      "balanced_hybrid": 0.9372,
+      "semantic_heavy": 0.9213,
+      "eligibility_heavy": 0.9562,
+      "kg_pathway_heavy": 0.9281,
+      "empathetic_support": 0.9339
+    },
+    "undergraduate|I|sparse|anx": {
+      "balanced_hybrid": 0.6888,
+      "semantic_heavy": 0.7031,
+      "eligibility_heavy": 0.6695,
+      "kg_pathway_heavy": 0.6967,
+      "empathetic_support": 0.7341
+    },
+    "undergraduate|A|complete|pos": {
+      "balanced_hybrid": 0.6778,
+      "semantic_heavy": 0.6842,
+      "eligibility_heavy": 0.7301,
+      "kg_pathway_heavy": 0.6631,
+      "empathetic_support": 0.6402
+    },
+    "undergraduate|I|sparse|pos": {
+      "balanced_hybrid": 0.8138,
+      "semantic_heavy": 0.8559,
+      "eligibility_heavy": 0.7954,
+      "kg_pathway_heavy": 0.7865,
+      "empathetic_support": 0.7784
+    },
+    "undergraduate|R|complete|pos": {
+      "balanced_hybrid": 0.6769,
+      "semantic_heavy": 0.662,
+      "eligibility_heavy": 0.7801,
+      "kg_pathway_heavy": 0.6724,
+      "empathetic_support": 0.6635
+    },
+    "undergraduate|C|complete|pos": {
+      "balanced_hybrid": 0.729,
+      "semantic_heavy": 0.733,
+      "eligibility_heavy": 0.8508,
+      "kg_pathway_heavy": 0.7693,
+      "empathetic_support": 0.7373
+    },
+    "undergraduate|E|sparse|pos": {
+      "balanced_hybrid": 0.6858,
+      "semantic_heavy": 0.7762,
+      "eligibility_heavy": 0.5899,
+      "kg_pathway_heavy": 0.719,
+      "empathetic_support": 0.6572
+    },
+    "graduate|I|complete|pos": {
+      "balanced_hybrid": 0.7959,
+      "semantic_heavy": 0.8113,
+      "eligibility_heavy": 0.8318,
+      "kg_pathway_heavy": 0.801,
+      "empathetic_support": 0.7915
+    },
+    "graduate|I|sparse|pos": {
+      "balanced_hybrid": 0.709,
+      "semantic_heavy": 0.7885,
+      "eligibility_heavy": 0.684,
+      "kg_pathway_heavy": 0.6761,
+      "empathetic_support": 0.679
+    },
+    "graduate|R|complete|pos": {
+      "balanced_hybrid": 0.7411,
+      "semantic_heavy": 0.7709,
+      "eligibility_heavy": 0.8533,
+      "kg_pathway_heavy": 0.7743,
+      "empathetic_support": 0.7412
+    },
+    "graduate|C|sparse|pos": {
+      "balanced_hybrid": 0.7561,
+      "semantic_heavy": 0.8127,
+      "eligibility_heavy": 0.7093,
+      "kg_pathway_heavy": 0.7388,
+      "empathetic_support": 0.7604
+    },
+    "graduate|S|complete|pos": {
+      "balanced_hybrid": 0.745,
+      "semantic_heavy": 0.7428,
+      "eligibility_heavy": 0.8439,
+      "kg_pathway_heavy": 0.7643,
+      "empathetic_support": 0.7522
+    },
+    "graduate|C|complete|pos": {
+      "balanced_hybrid": 0.6925,
+      "semantic_heavy": 0.679,
+      "eligibility_heavy": 0.7839,
+      "kg_pathway_heavy": 0.6795,
+      "empathetic_support": 0.6002
+    },
+    "graduate|E|complete|pos": {
+      "balanced_hybrid": 0.7515,
+      "semantic_heavy": 0.76,
+      "eligibility_heavy": 0.8661,
+      "kg_pathway_heavy": 0.7642,
+      "empathetic_support": 0.7399
+    },
+    "graduate|E|complete|anx": {
+      "balanced_hybrid": 0.6738,
+      "semantic_heavy": 0.682,
+      "eligibility_heavy": 0.7042,
+      "kg_pathway_heavy": 0.6854,
+      "empathetic_support": 0.7323
+    },
+    "graduate|A|complete|pos": {
+      "balanced_hybrid": 0.7045,
+      "semantic_heavy": 0.6642,
+      "eligibility_heavy": 0.776,
+      "kg_pathway_heavy": 0.688,
+      "empathetic_support": 0.6617
+    },
+    "graduate|E|sparse|pos": {
+      "balanced_hybrid": 0.7103,
+      "semantic_heavy": 0.772,
+      "eligibility_heavy": 0.6855,
+      "kg_pathway_heavy": 0.6895,
+      "empathetic_support": 0.6801
+    }
+  }
+}

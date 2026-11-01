@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" width="960" height="480">
+    <rect width="960" height="480" fill="#FFFFFF"/>
+    <text x="85" y="36" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0F172A">Contextual Q-Learning Convergence Curve (Held-Out Training Split, N=80)</text>
+    <text x="85" y="58" font-family="Arial, sans-serif" font-size="13" fill="#64748B">100 Epochs, alpha = 0.1, gamma = 0.9, Linear Epsilon Decay (1.0 -> 0.1) — Zero Test Split Leakage</text>
+    <rect x="85" y="70" width="16" height="4" fill="#0F766E"/>
+    <text x="107" y="76" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#0F766E">Average Shaped Reward (Left Axis)</text>
+    <rect x="365" y="70" width="16" height="4" fill="#D97706"/>
+    <text x="387" y="76" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#D97706">Exploration Rate Epsilon (Right Axis)</text>
+    
+      <line x1="85" y1="405" x2="885" y2="405" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="75" y="409" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#0F766E">0.00</text>
+      <text x="895" y="409" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#D97706">0.00</text>
+    
+      <line x1="85" y1="327.5" x2="885" y2="327.5" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="75" y="331.5" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#0F766E">0.36</text>
+      <text x="895" y="331.5" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#D97706">0.25</text>
+    
+      <line x1="85" y1="250" x2="885" y2="250" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="75" y="254" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#0F766E">0.73</text>
+      <text x="895" y="254" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#D97706">0.50</text>
+    
+      <line x1="85" y1="172.5" x2="885" y2="172.5" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="75" y="176.5" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#0F766E">1.09</text>
+      <text x="895" y="176.5" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#D97706">0.75</text>
+    
+      <line x1="85" y1="95" x2="885" y2="95" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="75" y="99" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#0F766E">1.46</text>
+      <text x="895" y="99" text-anchor="start" font-family="Arial, sans-serif" font-size="12" fill="#D97706">1.00</text>
+    
+    <text x="85" y="429" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#334155">Epoch 1</text><text x="238.53535353535352" y="429" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#334155">Epoch 20</text><text x="400.1515151515151" y="429" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#334155">Epoch 40</text><text x="561.7676767676767" y="429" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#334155">Epoch 60</text><text x="723.3838383838385" y="429" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#334155">Epoch 80</text><text x="885" y="429" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#334155">Epoch 100</text>
+    <line x1="85" y1="405" x2="885" y2="405" stroke="#94A3B8" stroke-width="1.5"/>
+    <polyline fill="none" stroke="#D97706" stroke-width="2.5" stroke-dasharray="6,4" points="85.0,95.0 93.1,97.8 101.2,100.6 109.2,103.5 117.3,106.3 125.4,109.1 133.5,111.9 141.6,114.7 149.6,117.5 157.7,120.4 165.8,123.2 173.9,126.0 182.0,128.8 190.1,131.6 198.1,134.5 206.2,137.3 214.3,140.1 222.4,142.9 230.5,145.7 238.5,148.5 246.6,151.4 254.7,154.2 262.8,157.0 270.9,159.8 278.9,162.6 287.0,165.5 295.1,168.3 303.2,171.1 311.3,173.9 319.3,176.7 327.4,179.5 335.5,182.4 343.6,185.2 351.7,188.0 359.7,190.8 367.8,193.6 375.9,196.5 384.0,199.3 392.1,202.1 400.2,204.9 408.2,207.7 416.3,210.5 424.4,213.4 432.5,216.2 440.6,219.0 448.6,221.8 456.7,224.6 464.8,227.5 472.9,230.3 481.0,233.1 489.0,235.9 497.1,238.7 505.2,241.5 513.3,244.4 521.4,247.2 529.4,250.0 537.5,252.8 545.6,255.6 553.7,258.5 561.8,261.3 569.8,264.1 577.9,266.9 586.0,269.7 594.1,272.5 602.2,275.4 610.3,278.2 618.3,281.0 626.4,283.8 634.5,286.6 642.6,289.5 650.7,292.3 658.7,295.1 666.8,297.9 674.9,300.7 683.0,303.5 691.1,306.4 699.1,309.2 707.2,312.0 715.3,314.8 723.4,317.6 731.5,320.5 739.5,323.3 747.6,326.1 755.7,328.9 763.8,331.7 771.9,334.5 779.9,337.4 788.0,340.2 796.1,343.0 804.2,345.8 812.3,348.6 820.4,351.5 828.4,354.3 836.5,357.1 844.6,359.9 852.7,362.7 860.8,365.5 868.8,368.4 876.9,371.2 885.0,374.0"/>
+    <polyline fill="none" stroke="#0F766E" stroke-width="3" points="85.0,137.7 93.1,137.7 101.2,128.4 109.2,132.7 117.3,132.7 125.4,131.9 133.5,137.0 141.6,132.7 149.6,132.7 157.7,137.7 165.8,138.5 173.9,137.0 182.0,143.6 190.1,138.5 198.1,138.5 206.2,142.8 214.3,132.7 222.4,137.7 230.5,132.7 238.5,132.7 246.6,132.7 254.7,132.7 262.8,127.6 270.9,132.7 278.9,137.7 287.0,131.9 295.1,137.7 303.2,137.7 311.3,132.7 319.3,126.9 327.4,131.9 335.5,132.7 343.6,138.5 351.7,132.7 359.7,142.8 367.8,131.9 375.9,127.6 384.0,137.7 392.1,131.9 400.2,132.7 408.2,133.5 416.3,126.9 424.4,131.9 432.5,132.7 440.6,126.9 448.6,133.5 456.7,131.9 464.8,137.0 472.9,131.9 481.0,133.5 489.0,131.9 497.1,137.7 505.2,132.7 513.3,127.6 521.4,133.5 529.4,132.7 537.5,132.7 545.6,129.2 553.7,137.0 561.8,132.7 569.8,126.9 577.9,137.7 586.0,132.7 594.1,132.7 602.2,132.7 610.3,132.7 618.3,126.9 626.4,132.7 634.5,137.0 642.6,132.7 650.7,127.6 658.7,128.4 666.8,128.4 674.9,126.9 683.0,131.9 691.1,137.0 699.1,131.9 707.2,137.0 715.3,132.7 723.4,127.6 731.5,128.4 739.5,126.9 747.6,127.6 755.7,126.9 763.8,126.9 771.9,127.6 779.9,126.9 788.0,131.9 796.1,126.9 804.2,126.9 812.3,126.9 820.4,127.6 828.4,126.9 836.5,128.4 844.6,131.9 852.7,126.9 860.8,126.9 868.8,127.6 876.9,126.9 885.0,126.9"/>
+  </svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" width="1000" height="480">
+    <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#475569"/>
+    </marker>
+    <marker id="arrTeal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0D9488"/>
+    </marker>
+  </defs>
+    <rect width="1000" height="480" fill="#FFFFFF"/>
+    <text x="40" y="36" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0F172A">Database &amp; Knowledge Repository Entity-Relationship (ER) Diagram</text>
+    <text x="40" y="56" font-family="Arial, sans-serif" font-size="13" fill="#64748B">SQLite relational tables (data/sankalp.db) linked with typed Career &amp; Pathway repositories</text>
+
+    
+    <rect x="45" y="95" width="260" height="145" rx="8" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.8"/>
+    <text x="175" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">student_sessions (SQLite)</text>
+    <text x="175" y="137" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">PK session_id TEXT</text><text x="175" y="153" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">education_level TEXT</text><text x="175" y="169" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">language TEXT (en|hi|kn)</text><text x="175" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">cohort TEXT (urban|rural)</text><text x="175" y="201" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">profile_json TEXT</text><text x="175" y="217" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">created_at DATETIME</text>
+  
+    
+    <rect x="370" y="95" width="260" height="145" rx="8" fill="#F0FDFA" stroke="#14B8A6" stroke-width="1.8"/>
+    <text x="500" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">recommendation_logs (SQLite)</text>
+    <text x="500" y="137" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">PK id INTEGER</text><text x="500" y="153" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">FK session_id TEXT</text><text x="500" y="169" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">model_variant TEXT</text><text x="500" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">latency_ms REAL</text><text x="500" y="201" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">top_career_id TEXT</text><text x="500" y="217" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">recommendations_json TEXT</text>
+  
+    
+    <rect x="695" y="95" width="260" height="145" rx="8" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1.8"/>
+    <text x="825" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">user_feedback (SQLite)</text>
+    <text x="825" y="137" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">PK id INTEGER</text><text x="825" y="153" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">FK session_id TEXT</text><text x="825" y="169" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">FK career_id TEXT</text><text x="825" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">action TEXT (accept|reject)</text><text x="825" y="201" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">rating INTEGER (1..5)</text><text x="825" y="217" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">vader_compound REAL</text>
+  
+
+    
+    <rect x="170" y="295" width="290" height="140" rx="8" fill="#F8FAFC" stroke="#64748B" stroke-width="1.8"/>
+    <text x="315" y="318" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">CAREER_REPOSITORY (85 Records)</text>
+    <text x="315" y="337" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">PK id TEXT</text><text x="315" y="353" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">title, title_hi, title_kn</text><text x="315" y="369" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">min_academic_score, riasec_profile</text><text x="315" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">required_skills[], required_subjects[]</text><text x="315" y="401" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">pathway_steps[], bridge_pathway</text>
+  
+    
+    <rect x="540" y="295" width="310" height="140" rx="8" fill="#ECFDF5" stroke="#10B981" stroke-width="1.8"/>
+    <text x="695" y="318" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">q_learning_state (SQLite)</text>
+    <text x="695" y="337" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">PK id INTEGER (Singleton=1)</text><text x="695" y="353" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">snapshot_json (originalCareerQ +</text><text x="695" y="369" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">contextualPolicyQ tables,</text><text x="695" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">epsilon, episodes_trained)</text><text x="695" y="401" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">updated_at DATETIME</text>
+  
+
+    <line x1="305" y1="165" x2="370" y2="165" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
+    <line x1="630" y1="165" x2="695" y2="165" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
+    <line x1="500" y1="240" x2="360" y2="295" stroke="#475569" stroke-width="1.8" marker-end="url(#arr)"/>
+    <line x1="825" y1="240" x2="720" y2="295" stroke="#0D9488" stroke-width="2" marker-end="url(#arrTeal)"/>
+  </svg>

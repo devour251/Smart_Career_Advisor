@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 480" width="1040" height="480">
+    <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#475569"/>
+    </marker>
+    <marker id="arrTeal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0D9488"/>
+    </marker>
+  </defs>
+    <rect width="1040" height="480" fill="#FFFFFF"/>
+    <text x="40" y="36" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0F172A">Multi-Stage Indian Education-to-Career Pathway Graph (NEP-2020 Aligned)</text>
+    <text x="40" y="56" font-family="Arial, sans-serif" font-size="13" fill="#64748B">Key structural contribution extending Sankalp from flat job matching to longitudinal academic pathway planning</text>
+
+    
+    <rect x="35" y="95" width="195" height="330" rx="8" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.8"/>
+    <text x="132.5" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">After 10th (SSLC)</text>
+    <text x="132.5" y="137" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">1. Science (PCM/PCB)</text><text x="132.5" y="153" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">2. Commerce + Math</text><text x="132.5" y="169" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">3. Arts / Humanities</text><text x="132.5" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">4. Polytechnic Diploma</text><text x="132.5" y="201" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">5. ITI / NCVET Trades</text>
+  
+    
+    <rect x="280" y="95" width="205" height="330" rx="8" fill="#F0FDFA" stroke="#14B8A6" stroke-width="1.8"/>
+    <text x="382.5" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">After 12th / Diploma</text>
+    <text x="382.5" y="137" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">1. B.Tech / B.E. (JEE/CET)</text><text x="382.5" y="153" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">2. MBBS / B.Sc Nursing</text><text x="382.5" y="169" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">3. B.Com / BBA / CA Found.</text><text x="382.5" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">4. B.A. / Integrated LL.B.</text><text x="382.5" y="201" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">5. BCA / B.Sc Data Science</text><text x="382.5" y="217" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">6. Lateral Entry B.Tech</text>
+  
+    
+    <rect x="535" y="95" width="205" height="330" rx="8" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1.8"/>
+    <text x="637.5" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Undergraduate Focus</text>
+    <text x="637.5" y="137" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">1. AI, Cloud &amp; Cyber Tracks</text><text x="637.5" y="153" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">2. Core EV, VLSI, Civil, Aero</text><text x="637.5" y="169" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">3. Clinical, Pharma, Biotech</text><text x="637.5" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">4. Audit, FinTech &amp; Policy</text><text x="637.5" y="201" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">5. UX Design &amp; Media</text><text x="637.5" y="217" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">+ NPTEL Skill Bridges</text>
+  
+    
+    <rect x="790" y="95" width="215" height="330" rx="8" fill="#ECFDF5" stroke="#10B981" stroke-width="1.8"/>
+    <text x="897.5" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Graduate &amp; Careers</text>
+    <text x="897.5" y="137" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">1. Direct Industry Roles (85)</text><text x="897.5" y="153" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">2. M.Tech / MS Research</text><text x="897.5" y="169" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">3. MBA Product &amp; Strategy</text><text x="897.5" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">4. UPSC / State Civil Services</text><text x="897.5" y="201" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">5. Ph.D. / Scientist (ISRO)</text><text x="897.5" y="217" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">+ Plan-B Alternative Routes</text>
+  
+
+    <line x1="230" y1="260" x2="280" y2="260" stroke="#0D9488" stroke-width="2.5" marker-end="url(#arrTeal)"/>
+    <line x1="485" y1="260" x2="535" y2="260" stroke="#0D9488" stroke-width="2.5" marker-end="url(#arrTeal)"/>
+    <line x1="740" y1="260" x2="790" y2="260" stroke="#0D9488" stroke-width="2.5" marker-end="url(#arrTeal)"/>
+  </svg>

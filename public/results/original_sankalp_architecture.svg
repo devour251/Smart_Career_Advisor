@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 540" width="1000" height="540">
+    <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#475569"/>
+    </marker>
+    <marker id="arrTeal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0D9488"/>
+    </marker>
+  </defs>
+    <rect width="1000" height="540" fill="#FFFFFF"/>
+    <text x="40" y="36" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0F172A">Original IEEE Sankalp Three-Layer System Architecture (Baseline)</text>
+    <text x="40" y="56" font-family="Arial, sans-serif" font-size="13" fill="#64748B">Nandi et al., IEEE Access 2025 (DOI: 10.1109/ACCESS.2025.3638596) — Single-Stage Career Matcher</text>
+
+    <rect x="35" y="75" width="930" height="105" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+    <text x="55" y="98" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#334155">LAYER 1: PRESENTATION &amp; MULTIMODAL INTERFACE</text>
+    
+    <rect x="60" y="108" width="260" height="58" rx="8" fill="#EFF6FF" stroke="#93C5FD" stroke-width="1.8"/>
+    <text x="190" y="131" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Text &amp; Voice Input</text>
+    <text x="190" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Whisper STT + gTTS (EN / HI / KN)</text>
+  
+    
+    <rect x="370" y="108" width="260" height="58" rx="8" fill="#EFF6FF" stroke="#93C5FD" stroke-width="1.8"/>
+    <text x="500" y="131" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Literal Translation Step</text>
+    <text x="500" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Google Translate -&gt; Flat English String</text>
+  
+    
+    <rect x="680" y="108" width="260" height="58" rx="8" fill="#EFF6FF" stroke="#93C5FD" stroke-width="1.8"/>
+    <text x="810" y="131" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Streamlit Single-View UI</text>
+    <text x="810" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Accept / Reject Binary Buttons</text>
+  
+
+    <rect x="35" y="205" width="930" height="175" rx="10" fill="#FFFBEB" stroke="#FCD34D" stroke-width="1.5"/>
+    <text x="55" y="228" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#92400E">LAYER 2: HYBRID CORE AI ENGINE (MULTIPLICATIVE RIGID GATE)</text>
+    
+    <rect x="55" y="242" width="200" height="72" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.8"/>
+    <text x="155" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Flat SBERT Encoder</text>
+    <text x="155" y="284" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">all-MiniLM-L6-v2</text><text x="155" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Single Concatenated String</text>
+  
+    
+    <rect x="280" y="242" width="200" height="72" rx="8" fill="#FFFFFF" stroke="#EF4444" stroke-width="1.8"/>
+    <text x="380" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#991B1B">Rigid IF-THEN Rules</text>
+    <text x="380" y="284" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Hard Cutoff on Marks/Stream</text><text x="380" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">(Rule Rigidity Bottleneck)</text>
+  
+    
+    <rect x="505" y="242" width="200" height="72" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.8"/>
+    <text x="605" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">VADER Sentiment</text>
+    <text x="605" y="284" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Post-Translation Polarity</text><text x="605" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Basic Tone Tweak</text>
+  
+    
+    <rect x="730" y="242" width="210" height="72" rx="8" fill="#FFFFFF" stroke="#F59E0B" stroke-width="1.8"/>
+    <text x="835" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Scalar Q-Learning</text>
+    <text x="835" y="284" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Binary +1/-1 Career Multiplier</text><text x="835" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">No Contextual State Generalization</text>
+  
+    <text x="500" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.5" font-weight="700" fill="#92400E">Final Score = RigidGate x (SBERT + RigidRule + 2-Hop KG + Market) x CareerQ</text>
+
+    <rect x="35" y="405" width="930" height="110" rx="10" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.5"/>
+    <text x="55" y="428" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#334155">LAYER 3: DATA &amp; KNOWLEDGE REPOSITORY</text>
+    
+    <rect x="60" y="440" width="270" height="58" rx="8" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.8"/>
+    <text x="195" y="463" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">85 Career JSON Profiles</text>
+    <text x="195" y="482" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Skills, Subjects, Traits, Environment</text>
+  
+    
+    <rect x="365" y="440" width="270" height="58" rx="8" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.8"/>
+    <text x="500" y="463" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">NetworkX 2-Hop Graph</text>
+    <text x="500" y="482" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Unweighted Overlap Links</text>
+  
+    
+    <rect x="670" y="440" width="270" height="58" rx="8" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.8"/>
+    <text x="805" y="463" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">External Naukri API</text>
+    <text x="805" y="482" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Proprietary Live Job Feed Dependency</text>
+  
+
+    <line x1="320" y1="137" x2="370" y2="137" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
+    <line x1="500" y1="180" x2="500" y2="205" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
+    <line x1="500" y1="380" x2="500" y2="405" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
+  </svg>

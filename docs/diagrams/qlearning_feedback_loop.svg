@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 420" width="980" height="420">
+    <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#475569"/>
+    </marker>
+    <marker id="arrTeal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0D9488"/>
+    </marker>
+  </defs>
+    <rect width="980" height="420" fill="#FFFFFF"/>
+    <text x="40" y="36" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0F172A">Sentiment-Augmented Contextual Q-Learning Feedback Mechanism</text>
+    <text x="40" y="56" font-family="Arial, sans-serif" font-size="13" fill="#64748B">Bellman Policy Optimization: Q(s,a) &lt;- Q(s,a) + alpha [ R_shaped + gamma max Q(s',a') - Q(s,a) ]</text>
+
+    
+    <rect x="50" y="105" width="250" height="95" rx="8" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.8"/>
+    <text x="175" y="128" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Context State S_t</text>
+    <text x="175" y="147" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">EducationLevel x DominantRIASEC</text><text x="175" y="163" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">x CompletenessTier x EmotionBucket</text><text x="175" y="179" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">(Generalizes across similar students)</text>
+  
+    
+    <rect x="365" y="105" width="250" height="95" rx="8" fill="#F0FDFA" stroke="#14B8A6" stroke-width="1.8"/>
+    <text x="490" y="128" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Epsilon-Greedy Action A_t</text>
+    <text x="490" y="147" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Selects Fusion Weight Profile:</text><text x="490" y="163" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Balanced | Semantic | Eligibility</text><text x="490" y="179" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">KG-Pathway | Empathetic-Support</text>
+  
+    
+    <rect x="680" y="105" width="250" height="95" rx="8" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1.8"/>
+    <text x="805" y="128" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Student Interaction</text>
+    <text x="805" y="147" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Accept (+1) / Reject (-0.85)</text><text x="805" y="163" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">+ Optional Natural Language</text><text x="805" y="179" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Feedback &amp; Star Rating (1-5)</text>
+  
+    
+    <rect x="340" y="265" width="300" height="100" rx="8" fill="#ECFDF5" stroke="#10B981" stroke-width="1.8"/>
+    <text x="490" y="288" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#065F46">Shaped Reward &amp; Q-Table Persistence</text>
+    <text x="490" y="307" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">R_t = r_explicit + 0.35*VADER - 0.15*SkillGap</text><text x="490" y="323" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Updates SQLite q_learning_snapshots +</text><text x="490" y="339" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Filters Rejected Careers Immediately</text>
+  
+
+    <line x1="300" y1="152" x2="365" y2="152" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
+    <line x1="615" y1="152" x2="680" y2="152" stroke="#475569" stroke-width="2" marker-end="url(#arr)"/>
+    <path d="M 805 200 L 805 315 L 640 315" fill="none" stroke="#0D9488" stroke-width="2.2" marker-end="url(#arrTeal)"/>
+    <path d="M 340 315 L 175 315 L 175 200" fill="none" stroke="#0D9488" stroke-width="2.2" marker-end="url(#arrTeal)"/>
+  </svg>

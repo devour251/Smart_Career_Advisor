@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 540" width="980" height="540">
+    <rect width="980" height="540" fill="#FFFFFF"/>
+    <text x="88" y="36" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0F172A">Multi-Label Ranking Quality: Precision@3, Recall@3, and F1@3</text>
+    <text x="88" y="58" font-family="Arial, sans-serif" font-size="13" fill="#64748B">Evaluated against primary + acceptable alternative counselor ground-truth career sets (N=160)</text>
+    
+      <rect x="88" y="72" width="14" height="14" rx="2" fill="#2563EB"/>
+      <text x="108" y="84" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#334155">Precision@3 (%)</text>
+    
+      <rect x="303" y="72" width="14" height="14" rx="2" fill="#0D9488"/>
+      <text x="323" y="84" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#334155">Recall@3 (%)</text>
+    
+      <rect x="518" y="72" width="14" height="14" rx="2" fill="#7C3AED"/>
+      <text x="538" y="84" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#334155">F1-Score@3 (%)</text>
+    
+    
+      <line x1="88" y1="445" x2="940" y2="445" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="76" y="449" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#475569">0%</text>
+    
+      <line x1="88" y1="378" x2="940" y2="378" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="76" y="382" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#475569">20%</text>
+    
+      <line x1="88" y1="311" x2="940" y2="311" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="76" y="315" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#475569">40%</text>
+    
+      <line x1="88" y1="244" x2="940" y2="244" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="76" y="248" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#475569">60%</text>
+    
+      <line x1="88" y1="177" x2="940" y2="177" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="76" y="181" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#475569">80%</text>
+    
+      <line x1="88" y1="110" x2="940" y2="110" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="76" y="114" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#475569">100%</text>
+    
+    <line x1="88" y1="110" x2="88" y2="445" stroke="#94A3B8" stroke-width="1.5"/>
+    <line x1="88" y1="445" x2="940" y2="445" stroke="#94A3B8" stroke-width="1.5"/>
+    <text x="26" y="277.5" transform="rotate(-90 26 277.5)" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="600" fill="#334155">Metric Score (%)</text>
+    
+            <rect x="108.448" y="326.34299999999996" width="39.168000000000006" height="118.65700000000001" rx="3" fill="#2563EB"/>
+            <text x="128.03199999999998" y="320.34299999999996" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0F172A">35.4</text>
+          
+            <rect x="153.61599999999999" y="326.34299999999996" width="39.168000000000006" height="118.65700000000001" rx="3" fill="#0D9488"/>
+            <text x="173.2" y="320.34299999999996" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0F172A">35.4</text>
+          
+            <rect x="198.784" y="326.34299999999996" width="39.168000000000006" height="118.65700000000001" rx="3" fill="#7C3AED"/>
+            <text x="218.368" y="320.34299999999996" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0F172A">35.4</text>
+          <text x="173.2" y="469" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Rule-Based</text><text x="173.2" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Only</text>
+            <rect x="278.84799999999996" y="290.0625" width="39.168000000000006" height="154.9375" rx="3" fill="#2563EB"/>
+            <text x="298.43199999999996" y="284.0625" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0F172A">46.3</text>
+          
+            <rect x="324.01599999999996" y="290.0625" width="39.168000000000006" height="154.9375" rx="3" fill="#0D9488"/>
+            <text x="343.59999999999997" y="284.0625" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0F172A">46.3</text>
+          
+            <rect x="369.18399999999997" y="290.0625" width="39.168000000000006" height="154.9375" rx="3" fill="#7C3AED"/>
+            <text x="388.768" y="284.0625" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0F172A">46.3</text>
+          <text x="343.59999999999997" y="469" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#1E293B">SBERT</text><text x="343.59999999999997" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Only</text>
+            <rect x="449.248" y="305.40549999999996" width="39.168000000000006" height="139.5945" rx="3" fill="#2563EB"/>
+            <text x="468.832" y="299.40549999999996" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0F172A">41.7</text>
+          
+            <rect x="494.416" y="305.40549999999996" width="39.168000000000006" height="139.5945" rx="3" fill="#0D9488"/>
+            <text x="514" y="299.40549999999996" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0F172A">41.7</text>
+          
+            <rect x="539.5840000000001" y="305.40549999999996" width="39.168000000000006" height="139.5945" rx="3" fill="#7C3AED"/>
+            <text x="559.1680000000001" y="299.40549999999996" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0F172A">41.7</text>
+          <text x="514" y="469" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Hybrid Base</text><text x="514" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#1E293B">(Rule+SBERT)</text>
+            <rect x="619.648" y="316.59450000000004" width="39.168000000000006" height="128.4055" rx="3" fill="#2563EB"/>
+            <text x="639.232" y="310.59450000000004" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0F172A">38.3</text>
+          
+            <rect x="664.816" y="316.59450000000004" width="39.168000000000006" height="128.4055" rx="3" fill="#0D9488"/>
+            <text x="684.4000000000001" y="310.59450000000004" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0F172A">38.3</text>
+          
+            <rect x="709.984" y="316.59450000000004" width="39.168000000000006" height="128.4055" rx="3" fill="#7C3AED"/>
+            <text x="729.568" y="310.59450000000004" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0F172A">38.3</text>
+          <text x="684.4000000000001" y="469" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Original</text><text x="684.4000000000001" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Sankalp</text>
+            <rect x="790.048" y="268.42150000000004" width="39.168000000000006" height="176.5785" rx="3" fill="#2563EB"/>
+            <text x="809.6320000000001" y="262.42150000000004" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0F172A">52.7</text>
+          
+            <rect x="835.216" y="268.42150000000004" width="39.168000000000006" height="176.5785" rx="3" fill="#0D9488"/>
+            <text x="854.8" y="262.42150000000004" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0F172A">52.7</text>
+          
+            <rect x="880.384" y="268.42150000000004" width="39.168000000000006" height="176.5785" rx="3" fill="#7C3AED"/>
+            <text x="899.9680000000001" y="262.42150000000004" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0F172A">52.7</text>
+          <text x="854.8000000000001" y="469" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Improved</text><text x="854.8000000000001" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Sankalp (Ours)</text>
+  </svg>

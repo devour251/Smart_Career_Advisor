@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 360" width="1040" height="360">
+    <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#475569"/>
+    </marker>
+    <marker id="arrTeal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0D9488"/>
+    </marker>
+  </defs>
+    <rect width="1040" height="360" fill="#FFFFFF"/>
+    <text x="40" y="36" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0F172A">End-to-End 5-Step Student Guidance Website Workflow</text>
+    <text x="40" y="58" font-family="Arial, sans-serif" font-size="13" fill="#64748B">Seamless progression from academic stage selection to explainable multi-stage career roadmaps and Q-learning feedback</text>
+
+    
+    <rect x="35" y="105" width="172" height="130" rx="8" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.8"/>
+    <text x="121" y="128" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Step 1: Stage</text>
+    <text x="121" y="147" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">After 10th</text><text x="121" y="163" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">After 12th</text><text x="121" y="179" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Undergraduate</text><text x="121" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Graduate</text><text x="121" y="211" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">+ EN / HI / KN</text>
+  
+    
+    <rect x="237" y="105" width="172" height="130" rx="8" fill="#F0FDFA" stroke="#14B8A6" stroke-width="1.8"/>
+    <text x="323" y="128" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Step 2: Pathways</text>
+    <text x="323" y="147" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Science / Commerce</text><text x="323" y="163" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Arts / Diploma / ITI</text><text x="323" y="179" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">UG Specializations</text><text x="323" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Higher Studies &amp; Jobs</text>
+  
+    
+    <rect x="439" y="105" width="172" height="130" rx="8" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1.8"/>
+    <text x="525" y="128" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Step 3: Assessment</text>
+    <text x="525" y="147" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Marks &amp; Subjects</text><text x="525" y="163" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Skills &amp; Interests</text><text x="525" y="179" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Aptitude &amp; RIASEC</text><text x="525" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Text / Voice Reflection</text>
+  
+    
+    <rect x="641" y="105" width="172" height="130" rx="8" fill="#EEF2FF" stroke="#6366F1" stroke-width="1.8"/>
+    <text x="727" y="128" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Step 4: AI Ranking</text>
+    <text x="727" y="147" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Improved vs Original</text><text x="727" y="163" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Confidence Intervals</text><text x="727" y="179" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">SCCT Empathy Note</text><text x="727" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Accept/Reject Feedback</text>
+  
+    
+    <rect x="843" y="105" width="165" height="130" rx="8" fill="#ECFDF5" stroke="#10B981" stroke-width="1.8"/>
+    <text x="925.5" y="128" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#0F172A">Step 5: Roadmap</text>
+    <text x="925.5" y="147" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Why Recommended</text><text x="925.5" y="163" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Skill Gap &amp; NPTEL</text><text x="925.5" y="179" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">Course Comparison</text><text x="925.5" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="11.5" fill="#475569">SVG Knowledge Graph</text>
+  
+
+    <line x1="207" y1="170" x2="237" y2="170" stroke="#475569" stroke-width="2.2" marker-end="url(#arr)"/>
+    <line x1="409" y1="170" x2="439" y2="170" stroke="#475569" stroke-width="2.2" marker-end="url(#arr)"/>
+    <line x1="611" y1="170" x2="641" y2="170" stroke="#475569" stroke-width="2.2" marker-end="url(#arr)"/>
+    <line x1="813" y1="170" x2="843" y2="170" stroke="#475569" stroke-width="2.2" marker-end="url(#arr)"/>
+
+    <path d="M 727 235 L 727 305 L 525 305 L 525 235" fill="none" stroke="#0D9488" stroke-width="2" stroke-dasharray="6,4" marker-end="url(#arrTeal)"/>
+    <text x="626" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#0F766E">Live Q-Learning Feedback Loop Updates Policy &amp; Re-Ranks Candidates</text>
+  </svg>

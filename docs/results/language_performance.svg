@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 540" width="980" height="540">
+    <rect width="980" height="540" fill="#FFFFFF"/>
+    <text x="88" y="36" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0F172A">Multilingual Performance Breakdown: English, Hindi, and Kannada</text>
+    <text x="88" y="58" font-family="Arial, sans-serif" font-size="13" fill="#64748B">Native domain + valence lexicon expansion mitigates regional translation loss</text>
+    
+      <rect x="88" y="72" width="14" height="14" rx="2" fill="#F59E0B"/>
+      <text x="108" y="84" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#334155">Original Sankalp Top-1</text>
+    
+      <rect x="303" y="72" width="14" height="14" rx="2" fill="#0F766E"/>
+      <text x="323" y="84" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#334155">Improved Sankalp Top-1</text>
+    
+      <rect x="518" y="72" width="14" height="14" rx="2" fill="#94A3B8"/>
+      <text x="538" y="84" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#334155">Original Sankalp Top-3</text>
+    
+      <rect x="733" y="72" width="14" height="14" rx="2" fill="#2563EB"/>
+      <text x="753" y="84" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#334155">Improved Sankalp Top-3</text>
+    
+    
+      <line x1="88" y1="445" x2="940" y2="445" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="76" y="449" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#475569">0%</text>
+    
+      <line x1="88" y1="378" x2="940" y2="378" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="76" y="382" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#475569">20%</text>
+    
+      <line x1="88" y1="311" x2="940" y2="311" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="76" y="315" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#475569">40%</text>
+    
+      <line x1="88" y1="244" x2="940" y2="244" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="76" y="248" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#475569">60%</text>
+    
+      <line x1="88" y1="177" x2="940" y2="177" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="76" y="181" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#475569">80%</text>
+    
+      <line x1="88" y1="110" x2="940" y2="110" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="76" y="114" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#475569">100%</text>
+    
+    <line x1="88" y1="110" x2="88" y2="445" stroke="#94A3B8" stroke-width="1.5"/>
+    <line x1="88" y1="445" x2="940" y2="445" stroke="#94A3B8" stroke-width="1.5"/>
+    <text x="26" y="277.5" transform="rotate(-90 26 277.5)" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="600" fill="#334155">Accuracy (%)</text>
+    
+            <rect x="138" y="172.8125" width="41.5" height="272.1875" rx="3" fill="#F59E0B"/>
+            <text x="158.75" y="166.8125" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0F172A">81.3</text>
+          
+            <rect x="185.5" y="147.6875" width="41.5" height="297.3125" rx="3" fill="#0F766E"/>
+            <text x="206.25" y="141.6875" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0F172A">88.8</text>
+          
+            <rect x="233" y="151.875" width="41.5" height="293.125" rx="3" fill="#94A3B8"/>
+            <text x="253.75" y="145.875" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0F172A">87.5</text>
+          
+            <rect x="280.5" y="118.375" width="41.5" height="326.625" rx="3" fill="#2563EB"/>
+            <text x="301.25" y="112.375" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0F172A">97.5</text>
+          <text x="230" y="469" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#1E293B">English</text><text x="230" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#1E293B">(n=80)</text>
+            <rect x="422" y="227.25" width="41.5" height="217.75" rx="3" fill="#F59E0B"/>
+            <text x="442.75" y="221.25" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0F172A">65.0</text>
+          
+            <rect x="469.5" y="177" width="41.5" height="268" rx="3" fill="#0F766E"/>
+            <text x="490.25" y="171" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0F172A">80.0</text>
+          
+            <rect x="517" y="185.375" width="41.5" height="259.625" rx="3" fill="#94A3B8"/>
+            <text x="537.75" y="179.375" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0F172A">77.5</text>
+          
+            <rect x="564.5" y="118.375" width="41.5" height="326.625" rx="3" fill="#2563EB"/>
+            <text x="585.25" y="112.375" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0F172A">97.5</text>
+          <text x="514" y="469" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Hindi (Devanagari)</text><text x="514" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#1E293B">(n=40)</text>
+            <rect x="706" y="185.375" width="41.5" height="259.625" rx="3" fill="#F59E0B"/>
+            <text x="726.75" y="179.375" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0F172A">77.5</text>
+          
+            <rect x="753.5" y="193.75" width="41.5" height="251.25" rx="3" fill="#0F766E"/>
+            <text x="774.25" y="187.75" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0F172A">75.0</text>
+          
+            <rect x="801" y="177" width="41.5" height="268" rx="3" fill="#94A3B8"/>
+            <text x="821.75" y="171" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0F172A">80.0</text>
+          
+            <rect x="848.5" y="118.375" width="41.5" height="326.625" rx="3" fill="#2563EB"/>
+            <text x="869.25" y="112.375" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#0F172A">97.5</text>
+          <text x="798" y="469" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#1E293B">Kannada</text><text x="798" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#1E293B">(n=40)</text>
+  </svg>
